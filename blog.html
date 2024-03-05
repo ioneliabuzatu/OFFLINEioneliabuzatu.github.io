@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4B3HBHWQ5Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4B3HBHWQ5Q');
+    </script>
+
     <meta http-equiv="X-UA-Compatible" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ionelia Buzatu - Blog</title>
@@ -22,15 +32,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LXQLH66J4S"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-LXQLH66J4S');
-    </script>
 </head>
 
 <body>
@@ -50,13 +51,13 @@
             <div class="sidebar-info">
 
                 <figure class="avatar-box">
-                    <img src="./assets/images/profile_picture_1.jpg" alt="Selim YILDIZ" width="80">
+                    <img src="./assets/images/me_omnia_hotel.jpeg" alt="Ionelia Buzatu" width="80">
                 </figure>
 
                 <div class="info-content">
-                    <h1 class="name" title="Selim YILDIZ">Selim YILDIZ</h1>
+                    <h1 class="name" title="Ionelia Buzatu">Ionelia Buzatu</h1>
 
-                    <p class="title">Lead Software Engineer</p>
+                    <p class="title">ML Scientist & Engineer</p>
                 </div>
 
                 <button class="info_more-btn" data-sidebar-btn>
@@ -82,35 +83,7 @@
                         <div class="contact-info">
                             <p class="contact-title">Email</p>
 
-                            <a href="mailto:selimyildiz91@gmail.com" class="contact-link">selimyildiz91@gmail.com</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="phone-portrait-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Phone</p>
-
-                            <a href="tel:+46700093165" class="contact-link">+46 70 009 31 65</a>
-                        </div>
-
-                    </li>
-
-                    <li class="contact-item">
-
-                        <div class="icon-box">
-                            <ion-icon name="calendar-outline"></ion-icon>
-                        </div>
-
-                        <div class="contact-info">
-                            <p class="contact-title">Birthday</p>
-
-                            <time datetime="1991-02-18">February 18, 1991</time>
+                            <a href="mailto:buzatuioneliagmail.com" class="contact-link">buzatuionelia@gmail.com</a>
                         </div>
 
                     </li>
@@ -124,7 +97,7 @@
                         <div class="contact-info">
                             <p class="contact-title">Location</p>
 
-                            <address>Lund, Skane, Sweden</address>
+                            <address>Rome, Italy</address>
                         </div>
 
                     </li>
@@ -136,19 +109,21 @@
                 <ul class="social-list">
 
                     <li class="social-item">
-                        <a href="https://stackoverflow.com/users/5519709/selim-yildiz" class="social-link">
+                        <a href="https://github.com/ioneliabuzatu" target="_blank" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a
+                            href="https://stackoverflow.com/users/9157000/ionelia-buzatu" class="social-link">
                             <ion-icon name="logo-stackoverflow"></ion-icon>
                         </a>
                     </li>
 
-                    <li class="social-item">
-                        <a href="https://twitter.com/yildizseli" target="_blank" class="social-link">
-                            <ion-icon name="logo-twitter"></ion-icon>
-                        </a>
-                    </li>
 
                     <li class="social-item">
-                        <a href="https://medium.com/@selimyildiz91" class="social-link">
+                        <a href="https://medium.com/@buzatuionelia" class="social-link">
                             <ion-icon name="logo-medium"></ion-icon>
                         </a>
                     </li>
@@ -179,11 +154,19 @@
                     </li>
 
                     <li class="navbar-item">
+                        <a href="projects.html" class="navbar-link">Projects</a>
+                    </li>
+
+                    <li class="navbar-item">
                         <a href="resume.html" class="navbar-link">Resume</a>
                     </li>
 
                     <li class="navbar-item">
                         <a href="#" class="navbar-link active">Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="poems.html" class="navbar-link">Poems</a>
                     </li>
 
                     <li class="navbar-item">
@@ -207,6 +190,36 @@
                 <section class="blog-posts">
 
                     <ul class="blog-posts-list">
+
+                        <li class="blog-post-item">
+                            <a href="https://medium.com/@buzatuionelia/my-first-blog-on-medium-5169e9744d92" target="_blank">
+
+                                <figure class="blog-banner-box">
+                                    <img src="./assets/images/blog-6.jpg" alt="My first Medium post" loading="lazy">
+                                </figure>
+
+                                <div class="blog-content">
+
+                                    <div class="blog-meta">
+                                        <p class="blog-category">Technical</p>
+
+                                        <span class="dot"></span>
+
+                                        <time datetime="2023-05-03">March 05, 2024</time>
+                                    </div>
+
+                                    <h3 class="h3 blog-item-title">
+                                        My first post on Medium
+                                    </h3>
+
+                                    <p class="blog-text">
+                                        todo
+                                    </p>
+
+                                </div>
+
+                            </a>
+                        </li>
 
                     </ul>
 
