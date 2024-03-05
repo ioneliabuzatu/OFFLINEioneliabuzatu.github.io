@@ -16,15 +16,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ionelia Buzatu</title>
 
-    <!--
-      - favicon
-    -->
+    <!-- - favicon -->
     <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-    <!--
-      - custom css link
-    -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- - custom css link -->
+    <script src="config.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = stylesheetPath;
+        document.head.appendChild(link);
+      });
+    </script>
 
     <!--
       - google font link
@@ -220,9 +224,10 @@
                 <div id="interests" class="content-section">
                     <h2>Interests</h2>
                     <ul>
-                        <li>Artificial Intelligence</li>
-                        <li>Blockchain Technology</li>
-                        <li>Quantum Computing</li>
+                        <li><div><h3>Artificial Intelligence</h3></div></li>
+                        <li><div><h3>Cell dynamics</h3></div></li>
+                        <li><div><h3>Biohacking</h3></div></li>
+                        <li><div><h3>Control</h3></div></li>
                     </ul>
                 </div>
 
@@ -230,20 +235,17 @@
                 <div id="education" class="content-section">
                     <h2>Education</h2>
                     <ul>
+
                         <li>
-                            <img src="path_to_your_bachelor_icon.png" alt="Bachelor's Degree Icon" class="degree-icon">
                             <div>
-                                <h3>Bachelor of Science in Computer Science</h3>
-                                <p>University of Example, 2017 - 2021</p>
-                                <p>Key Courses: Algorithms, Data Structures, Machine Learning, Database Systems</p>
+                                <h3>MS in Artificial Intelligence, 2023</h3>
+                                <p>JKU Linz</p>
                             </div>
                         </li>
                         <li>
-                            <img src="path_to_your_master_icon.png" alt="Master's Degree Icon" class="degree-icon">
                             <div>
-                                <h3>Master of Science in Artificial Intelligence</h3>
-                                <p>Institute of Advanced Studies, 2021 - 2023</p>
-                                <p>Key Courses: Deep Learning, Natural Language Processing, Computer Vision</p>
+                                <h3>BS in Bioinformatics, 2019</h3>
+                                <p>Sapienza Rome University</p>
                             </div>
                         </li>
                     </ul>

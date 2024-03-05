@@ -167,7 +167,7 @@ body { background: var(--smoky-black); }
 
 .sidebar,
 article {
-  background: var(--eerie-black-2);
+  background: var(--vegas-gold);
   border: 1px solid var(--jet);
   border-radius: 20px;
   padding: 15px;
@@ -331,9 +331,11 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+.avatar-box img {
+    width: 100px; /* or you can keep the width attribute in HTML and remove it here */
+    height: 150px; /* Make height equal to width to ensure a circle */
+    border-radius: 30%; /* This will make the image circular */
+    object-fit: contain; /* Ensures the image covers the area nicely */
 }
 
 .info-content .name {
@@ -1884,6 +1886,16 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin: 10px 0;
 }
 
+#interests h2 {
+  color: #333;
+  font-size: 20px;
+}
+
+#interests h3 {
+  color: #666;
+  font-size: 15px;
+}
+
 #education h2 {
     color: #333;
     font-size: 20px;
@@ -1895,7 +1907,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 #education p {
-    color: #999;
+    color: #888;
     font-size: 10px;
 }
 
